@@ -3,7 +3,7 @@ Jarvis Voice Assistant (Python)
 Jarvis is a Python-based voice assistant capable of recognizing voice commands, opening websites, playing music, fetching news, and generating responses using Google Gemini AI.
 It uses SpeechRecognition, gTTS, pygame, and google-generativeai for powerful voice interaction.
 
-🚀 Features
+ Features
 <br><br/>
 
 Voice Wake Word Detection → Activates when you say "Jarvis"
@@ -29,7 +29,7 @@ Error handling for stable audio playback
 
 Continuous listening loop
 
-📁 Project Structure
+ Project Structure
 project/
 <br><br/>
 │── main.py
@@ -46,7 +46,7 @@ music = {
     ...
 }
 
-🛠️ Installation
+ Installation
 1. Install Dependencies
 
 Run:
@@ -58,7 +58,7 @@ Note:
 
 On some systems, installing pyaudio may require additional setup.
 
-🔧 Configuration
+ Configuration
 1. Add your Gemini API key
 
 Replace:
@@ -74,7 +74,7 @@ newsapi = "<Your NewsAPI Key>"
 
 You can get one from: https://newsapi.org/
 
-▶️ How to Run
+ How to Run
 
 Run the script:
 
@@ -85,7 +85,7 @@ Jarvis will start and say:
 
 Initializing Jarvis...
 
-🎤 How to Use
+ How to Use
 
 The assistant listens continuously.
 
@@ -121,7 +121,7 @@ Anything else you say is processed via Gemini AI, for example:
 
 “Explain black holes”
 
-🧠 How AI Response Works
+ How AI Response Works
 
 Jarvis sends your message to Google Gemini:
 
@@ -131,7 +131,7 @@ resp = model.generate_content(command)
 
 Returned text is spoken back using the custom speak() function.
 
-🔊 TTS System
+- TTS System
 
 The project uses:
 
@@ -141,7 +141,7 @@ pygame → plays the audio reliably
 
 Auto-cleanup removes temporary audio files
 
-⚠️ Notes & Troubleshooting
+ Notes & Troubleshooting
 1. Microphone Issues?
 
 Check if your system recognizes the microphone:
@@ -159,6 +159,6 @@ pipwin install pyaudio
 
 Make sure your system audio output device is working.
 
-📄 License
+-  License
 
 This project is open-source. You may modify and use it freely for personal projects.
