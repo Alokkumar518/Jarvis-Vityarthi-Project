@@ -159,6 +159,3 @@ pipwin install pyaudio
 
 Make sure your system audio output device is working.
 
--  License
-
-This project is open-source. You may modify and use it freely for personal projects.
